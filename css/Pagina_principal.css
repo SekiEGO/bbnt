@@ -1,0 +1,426 @@
+
+.heros {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin-top: 80px;
+    overflow: hidden;
+    border-bottom: 11px solid rgba(255, 204, 0);
+   
+  
+}
+
+.heros::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #b32e12, #f8ff24); /* Degradado de amarillo opaco a rojo */
+    clip-path: polygon(0 0, 54% 0, 46% 100%, 0% 100%);
+    z-index: 1; /* La figura debe estar detrás del contenido */
+}
+
+
+.hero-content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 90px;
+    position:absolute;
+    top:10%;
+    z-index: 2; /* Colocamos el contenido por encima de la figura */
+    
+}
+
+.hero-content {
+    color: rgb(255, 255, 255);
+    max-width: 50%; 
+
+    
+}
+
+.hero-content h1 {
+    font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-top: 70px;
+    line-height: 2;
+}
+
+.logo-img {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    left:51%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Mantiene el logo por encima de la figura */
+}
+
+.carro{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left:20%;
+    top: 83%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Mantiene el logo por encima de la figura */
+}
+
+
+
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    border-bottom: 11px solid rgba(255, 204, 0);
+    
+    
+}
+
+
+
+
+.fixed-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.fixed-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+}
+
+.fixed-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+.updates {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    padding: 0 180px;
+    background-color: #ece2cd;
+    border-bottom: 11px solid rgba(255, 204, 0);
+}
+
+.updates-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px;
+}
+
+.updates-title img {
+    position: absolute;
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: 84%;
+    
+}
+
+.updates-title h2 {
+    font-size: 2rem;
+    color: #b32e12;
+}
+.updates h2 {
+    color: #b32e12;
+    font-size: 2.5rem;
+    margin: 40px;
+    text-align: center;
+}
+
+/* Imágenes de la sección */
+.updates-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.updates-images img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    
+}
+
+/* Contenido debajo de las imágenes */
+.updates-content {
+    display: flex;
+    gap: 100px;/* Reduce la separación entre los elementos *//* Ajusta el espacio entre los elementos */
+    margin: 50px 0;
+    justify-content: center;
+    
+
+}
+
+.update-item {
+    min-height: 300px;
+    width: 40%; /* Ajusta el ancho para que sea más estrecho */
+    text-align: center; /* Centra el texto */
+    background-color: #fff6ed; /* Fondo claro para resaltar el texto */
+    padding: 40px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.update-item h3 {
+    font-size: 1.8rem;
+    color: #b32e12;
+    margin-bottom: 10px;
+}
+
+.update-item p {
+    font-size: 1rem;
+    color: #5a5a5a;
+    line-height: 1.6;
+    
+}
+
+.update-item .btn {
+    margin-top:20px;
+    padding: 10px 15px;
+    background-color: #b32e12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px; /* Tamaño estándar para todos los botones */
+    text-align: center; /* Para asegurar que el texto esté centrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+.update-item .buttons {
+    display: flex;
+    gap: 10px; /* Menor separación entre botones */
+    justify-content: center; /* Alinea los botones al centro */
+    
+    
+}
+
+.update-item .buttons .btn {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.buttons  a {
+    text-decoration: none;
+    color: white;
+    width: 100%; /* Hace que el enlace ocupe todo el botón */
+    height: 100%;
+    display: block;
+}
+.btn a {
+    text-decoration: none;
+    color: white; /* Hace que el enlace ocupe todo el botón */
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+
+.update-item .btn:hover {
+    background-color: #ffb84d; /* Color de fondo al pasar el mouse */
+    color:#b32e12; /* Color del texto al pasar el mouse */
+    padding: 10px 15px;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+     
+}
+
+
+
+
+
+
+
+.material-mayor {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url('../images/material.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 11px solid rgba(255, 204, 0);
+}
+
+.material-mayor .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.material-mayor h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.material-mayor .btn {
+    padding: 10px 20px;
+    background-color: #b32e12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.material-mayor .btn:hover {
+    background-color: #ffb84d;
+    color: #b32e12;
+}
+
+
+.cta-section {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: stretch; 
+    height: 600px; 
+    width: 100%; 
+    margin: 0;
+    border-bottom: 11px solid rgba(255, 204, 0);
+}
+
+
+.cta-item {
+    width: 50%; 
+    height: 100%; 
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+.cta-item.postulate {
+    background-color: #ece2cd;
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    justify-content: space-between;
+    
+}
+
+.cta-item.postulate h3 {
+    color: #b32e12; 
+    
+}
+
+
+.cta-item .btn-postulate {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #b32e12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.cta-item .btn-postulate:hover {
+    background-color: #ffb84d; 
+}
+
+
+.cta-item .cta-text {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 3;
+    margin-bottom: 20px;
+    color: #b32e12
+}
+
+.cta-item .cta-text .animo{
+    text-align: center;
+}
+
+/* Estilos específicos para Donaciones */
+.cta-item.donaciones {
+    background-color: #b32e12; /* Color naranja claro */
+    /* Ajusta el ancho para que sea más estrecho */
+    text-align: center; /* Centra el texto */
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    justify-content: space-between;
+}
+
+.cta-item.donaciones h3 {
+    color: #fce8e0; /* Color del título */
+    
+    
+}
+.cta-item.donaciones p{
+    color: #fce8e0; /* Color del título */
+    
+} 
+.cta-item .btn-donate {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #fce8e0;
+    color: #b32e12;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Para asegurar que el texto esté centrado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    
+    
+}
+
+.cta-item .btn-donate:hover {
+    background-color: #ffb84d; /* Color hover */
+}

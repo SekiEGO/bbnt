@@ -1,0 +1,82 @@
+
+
+.horo-section {
+    background-color: #a33311;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+    
+}
+
+.horo-section {
+    background-color: #b32e12; /* Fondo rojo oscuro */
+    padding: 40px;
+    border-bottom: 10px solid #ffcc00; /* Línea inferior amarilla */
+    text-align: center;
+    color: white;
+    
+}
+.horo-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.horo-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 0 300px;
+    
+}
+
+.horo-card img {
+    width: 200px;
+    height: 200px;
+    background-color: white; /* Color de fondo blanco para la imagen */
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border: 3px solid white;
+    
+}
+
+.horo-card .rango {
+    font-weight: bold;
+}
+
+.horo-card .nombre {
+    font-size: 0.9rem;
+}
+.linea {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+
+.cadetes-section {
+    background-color: #fdf4e3; /* Fondo beige claro */
+    padding: 40px;
+    border-bottom: 10px solid #ffcc00; /* Borde amarillo */
+    display: flex;
+}
+
+.cadetes-content {
+    
+    width: 100%; /* Ajustar el ancho máximo de la sección */
+}
+
+.cadetes-title {
+    font-size: 2.5rem;
+    color: #b32e12;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cadetes-list p {
+    font-size: 1.5rem;
+    color: #b32e12;
+    margin: 10px 0;
+    padding-left: 100px;
+}

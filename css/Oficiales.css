@@ -1,0 +1,113 @@
+
+
+
+.generales-section {
+    background-color: #b32e12; /* Fondo rojo oscuro */
+    padding: 40px;
+    border-bottom: 10px solid #ffcc00; /* Línea inferior amarilla */
+    text-align: center;
+    color: white;
+}
+.generales-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.generales-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.oficial-card img {
+    width: 200px;
+    height: 200px;
+    background-color: white; /* Color de fondo blanco para la imagen */
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border: 3px solid white;
+}
+
+.oficial-card .rango {
+    font-weight: bold;
+}
+
+.oficial-card .nombre {
+    font-size: 0.9rem;
+}
+
+
+
+.admin-section {
+    background-color: #ece2cd; /* Fondo rojo oscuro */
+    padding: 40px;
+    border-bottom: 10px solid #ffcc00; /* Línea inferior amarilla */
+    text-align: center;
+    color: #b32e12;
+}
+.admin-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.admin-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.admin-card img {
+    width: 200px;
+    height: 200px;
+    background-color: white; /* Color de fondo blanco para la imagen */
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border: 4px solid #b32e12;
+}
+
+.admin-card .rango {
+    font-weight: bold;
+}
+
+.admin-card .nombre {
+    font-size: 0.9rem;
+}
+
+
+.eje-section {
+    background-color: #b32e12; /* Fondo rojo oscuro */
+    padding: 40px;
+    border-bottom: 10px solid #ffcc00; /* Línea inferior amarilla */
+    text-align: center;
+    color: white;
+}
+.eje-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.eje-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.eje-card img {
+    width: 200px;
+    height: 200px;
+    background-color: white; /* Color de fondo blanco para la imagen */
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border: 3px solid white;
+}
+
+.eje-card .rango {
+    font-weight: bold;
+}
+
+.eje-card .nombre {
+    font-size: 0.9rem;
+}
+
+
+
